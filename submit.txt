@@ -1,0 +1,6 @@
+
+From "history":
+Various "cp" to the correct directories
+
+find output for "neptune":
+planets/real/gas-giants/neptune.jpeg
