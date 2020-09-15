@@ -1,0 +1,15 @@
+  739  cat wildersquetes/wilders.csv | grep "JavaScript" | grep "Toulouse" | grep "Biarritz"
+  740  man grep
+  741  cat wildersquetes/wilders.csv | grep "JavaScript|Toulouse|Biarritz"
+  742  cat wildersquetes/wilders.csv | grep "Biarritz" > biar.txt
+  743  cat biar.txt 
+  744  cat biar.txt | grep "JavaScript"
+  745  cat biar.txt | grep "JavaScript" > wildersquetes/javascript_biarritz_toulouse.csv 
+  746  cat wildersquetes/wilders.csv | grep "Toulouse"
+  747  cat wildersquetes/wilders.csv | grep "Toulouse" > toul.txt
+  748  ls
+  749  cat toul.txt | grep "JavaScript" >> wildersquetes/javascript_biarritz_toulouse.csv 
+  750  cat wildersquetes/javascript_biarritz_toulouse.csv 
+  751  history
+  752  man tail
+  753  history | tail -n 15 > history.txt
