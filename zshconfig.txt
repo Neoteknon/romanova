@@ -9,10 +9,12 @@
 READNULLCMD=${PAGER:-/usr/bin/pager}
 
 
-# SOLUTION HERE######
+# SOLUTION HERE ###### 
+# EDITED 23.09 ####### Added alias "therm" in zshrc. Also "alias" was in .bashrc (or ~/.bash_profile), which is now taken in count by .zshrc  
+
 source ~/.bash_profile
 printf "Bourne Again SHell"
-
+alias therm="sensors"
 
 # An array to note missing features to ease diagnosis in case of problems.
 typeset -ga debian_missing_features
