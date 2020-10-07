@@ -28,4 +28,34 @@ main * {
 img:nth-of-type(2) {
     filter: grayscale(100%);  /* English : Replace with a property that makes the image look black & white. */
                 /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
+   
 }
+
+
+
+
+
+####HTML FROM HERE
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Catch'em all!</title>
+        <link rel="stylesheet" href="style_css-1.css">
+    </head>
+    <body>
+        <main>
+            <img src="http://images.innoveduc.fr/integration_parcours/css/css_selectors_props/hobbit-house.jpg" alt="Hobbit house" class="hover-effect">
+            </div>
+            <p>Photo by conner Bowe on Unsplash</p>
+            <img src="http://images.innoveduc.fr/integration_parcours/css/css_selectors_props/hobbit-house-grass.jpg" alt="Hobbit house with grass">
+            <p>Photo by Jeff Finley on Unsplash</p>
+            <div class="hover-effect">   
+            <img src="http://images.innoveduc.fr/integration_parcours/css/css_selectors_props/hobbit-house-grey-grass.jpg" alt="Hobbit house with grey grass" class="hover-effect">
+            </div>
+            <p>Photo by Tyler Lastovich on Unsplash</p>
+        </main>
+    </body>
+</html>
