@@ -7,7 +7,7 @@ Subnet Mask : 255.255.255.192
 
 Calculation Subnet:
 2^x + 2 = number of subnets
-(x=number of 0's à garder) = 6
+(x=number of 0's à garder) = 6 (car 2^6 = 64 et nous on a besoin de 50 addresses ip dispo)
 
 Default subnet in binary : 11111111.11111111.11111111.00000000
 New Subnet (considering the 6) : 11111111.11111111.11111111.11000000 = 255.255.255.192
